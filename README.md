@@ -57,3 +57,36 @@ This project provides a simple image encryption tool using pixel manipulation. U
     - The mathematical transformation is reversed to restore the original pixel values.
 
 
+# 🔍 Task 3: Password Complexity Checker Tool 🔍 
+## Overview
+This repository contains a Python-based tool designed to assess the strength of passwords. The tool evaluates passwords against several key criteria to determine their complexity and provide a strength rating.
+
+## Features
+- **Length Check**: Ensures the password is at least 8 characters long.
+- **Uppercase Check**: Verifies the presence of at least one uppercase letter.
+- **Lowercase Check**: Verifies the presence of at least one lowercase letter.
+- **Number Check**: Verifies the presence of at least one digit.
+- **Special Character Check**: Verifies the presence of at least one special character (e.g., !, @, #, $, etc.).
+
+## Password Strength Classification
+- **Strong Password**: Meets all five criteria.
+- **Good Password**: Meets three or four of the criteria.
+- **Weak Password**: Meets less than three criteria.
+
+## Usage
+### To use the password complexity checker tool:
+
+1. Clone the repository to your local machine.
+2. Run the Python script password_complexity_checker.py.
+3. Enter a password when prompted.
+4. The tool will output the strength of the password as "Strong Password," "Good Password," or "Weak Password."
+
+## Contributions
+
+### Feel free to contribute to this project by:
+
+- Improving the criteria for password strength.
+- Adding more features to enhance the tool.
+- Optimizing the code for better performance.
+
+
